@@ -267,9 +267,9 @@ p {
 }
 
 /*iPhone 6 Plus*/
-@media (min-width: 414px) {
+@media (max-width: 414px) {
   p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     word-spacing: 3px;
   }
 }
