@@ -2,6 +2,16 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.lock {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.push-below {
+  margin-bottom: 10em;
+}
+
 #navbar-primary .navbar-nav {
   width: 100%;
   text-align: center;
@@ -20,7 +30,7 @@ li#logo-navbar-middle > a img {
 }
 
 /*iPhone 5*/
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   #navbar-primary .navbar-nav {
     width: 100%;
     text-align: center;
@@ -49,7 +59,7 @@ li#logo-navbar-middle > a img {
 }
 
 /*iPhone 6 Plus*/
-@media (min-width: 414px) {
+@media (max-width: 414px) {
   #navbar-primary .navbar-nav {
     width: 100%;
     text-align: center;
@@ -60,10 +70,12 @@ li#logo-navbar-middle > a img {
     float: none;
   }
   #navbar-primary .navbar-nav > li > a {
+    padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    font-size: 1em;
-    width: 250px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    width: 100px;
   }
 
   li#logo-navbar-middle > a {
@@ -72,8 +84,8 @@ li#logo-navbar-middle > a img {
   }
 
   li#logo-navbar-middle > a img {
-    width: 250px;
-    padding-top: 10px;
+    width: 100px;
+    padding-top: 0px;
   }
 }
 
@@ -107,8 +119,13 @@ ul.nav li a {
 
   footer ul.nav li {
     float: left !important;
-    margin: 0 24px !important;
+    margin: 0 58px !important;
     font-size: 0.8em;
+  }
+
+  footer ul.nav li a {
+    padding-top: 0;
+    padding-bottom: 10px;
   }
 }
 
@@ -119,6 +136,21 @@ ul.nav li a {
   }
 }
 
+
+footer {
+    /* just for demo */
+    background-color: #F8F8F8;
+    border-top: 1px solid #E7E7E7;
+    text-align:center;
+    padding:20px;
+   /* just for demo */ 
+  
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
 
 .top-right {
   position: absolute;
@@ -211,7 +243,8 @@ p {
 }
 
 a {
-  color: #B12933;
+  /*color: #B12933;*/
+  color: #EB010C;
 }
 
 .vertical-center {
@@ -285,7 +318,8 @@ a {
 }
 
 .menu h1 {
-  color: #B12933;
+  /*color: #B12933;*/
+  color: #EB010C;
   font-size: 1.8em;
   letter-spacing: 1px; 
 }
@@ -322,3 +356,20 @@ a {
           border-radius: 0 !important;
 }
 
+
+.navbar-inverse {
+  background-color: #F8F8F8;
+  border-color: 1px solid #E7E7E7;
+}
+
+#bottomNav {
+  padding: 12px;
+}
+#bottomNav a {
+    font-size: 1.3em;
+    color: #EB010C;
+    text-decoration:none;
+}
+#bottomNav a:hover {
+    color: #EB010C;
+}
