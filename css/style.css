@@ -29,35 +29,6 @@ li#logo-navbar-middle > a img {
   width: 250px;
 }
 
-/*iPhone 5*/
-@media (max-width: 320px) {
-  #navbar-primary .navbar-nav {
-    width: 100%;
-    text-align: center;
-    margin: -10px auto;
-  }
-  #navbar-primary .navbar-nav > li {
-    display: inline-block;
-    float: none;
-  }
-  #navbar-primary .navbar-nav > li > a {
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 1em;
-    width: 125px;
-  }
-
-  li#logo-navbar-middle > a {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-
-  li#logo-navbar-middle > a img {
-    width: 60px;
-    padding-top: 10px;
-  }
-}
-
 /*iPhone 6 Plus*/
 @media (max-width: 414px) {
   #navbar-primary .navbar-nav {
@@ -88,6 +59,36 @@ li#logo-navbar-middle > a img {
     padding-top: 0px;
   }
 }
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  #navbar-primary .navbar-nav {
+    width: 100%;
+    text-align: center;
+    margin: -10px auto;
+  }
+  #navbar-primary .navbar-nav > li {
+    display: inline-block;
+    float: none;
+  }
+  #navbar-primary .navbar-nav > li > a {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 1em;
+    width: 64px;
+  }
+
+  li#logo-navbar-middle > a {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  li#logo-navbar-middle > a img {
+    width: 64px;
+    padding-top: 0px;
+  }
+}
+
 
 .main-nav {
   top: 20%;
@@ -237,7 +238,7 @@ p {
 /*iPhone 6 Plus*/
 @media (min-width: 414px) {
   p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     word-spacing: 3px;
   }
 }
