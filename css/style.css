@@ -6,6 +6,7 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
+  position: fixed;
 }
 
 .push-below {
