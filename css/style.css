@@ -5,8 +5,14 @@ body {
 .lock {
   overflow-x: hidden;
   overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  position: fixed;
+}
+
+/*iPhone 6 Plus*/
+@media (max-width: 414px) {
+  .lock {
+    -webkit-overflow-scrolling: touch;
+    position: fixed;
+  }
 }
 
 .push-below {
