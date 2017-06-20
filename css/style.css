@@ -238,9 +238,9 @@ footer {
 @media (min-width: 414px) {
   .top-right {
     position: absolute;
-    width: 80%;
+    width: 75%;
     top: 0px;
-    right: -100px;
+    right: -75px;
     overflow: hidden;
   }
 
@@ -254,9 +254,9 @@ footer {
 
   .bottom-left {
     position: absolute;
-    width: 80%;
+    width: 75%;
     top: 250px;
-    left: -100px;
+    left: -75px;
     overflow: hidden;
   }
 }
