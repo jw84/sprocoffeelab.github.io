@@ -202,7 +202,7 @@ footer {
 
 .bottom-left {
   position: absolute;
-  top: 200px;
+  top: 150px;
   left: 0px;
   overflow: hidden;
 }
@@ -228,7 +228,7 @@ footer {
   .bottom-left {
     position: absolute;
     width: 80%;
-    top: 200px;
+    top: 150px;
     left: -80px;
     overflow: hidden;
   }
@@ -255,7 +255,7 @@ footer {
   .bottom-left {
     position: absolute;
     width: 80%;
-    top: 300px;
+    top: 250px;
     left: -100px;
     overflow: hidden;
   }
