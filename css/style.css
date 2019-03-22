@@ -21,6 +21,9 @@ and (-webkit-device-pixel-ratio : 3)
 and (orientation : portrait) { 
   .banner {
     margin-left: 0;
+    width: ;
+    display: inline-block;
+    overflow: auto;
   }
 
 }
@@ -426,7 +429,7 @@ a {
   padding: 12px;
 }
 #bottomNav a {
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #EB010C;
     text-decoration:none;
 }
