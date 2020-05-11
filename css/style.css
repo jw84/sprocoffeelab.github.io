@@ -437,11 +437,3 @@ a {
 #bottomNav a:hover {
     color: #EB010C;
 }
-
-
-#RotatingMenu img {
-  width: 100vw;
-  high: auto;
-  position: absolute;
-  margin-top:-100px;
-}
