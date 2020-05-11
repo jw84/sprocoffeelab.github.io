@@ -26,10 +26,6 @@ and (orientation : portrait) {
     display: inline-block;
     overflow: auto;
   }
-  
-  li {
-  font-zise: 14pt;
-  }
 
 }
 
