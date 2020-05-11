@@ -441,4 +441,6 @@ a {
 
 #RotatingMenu img {
   width: 100vw;
+  high: auto;
+  position: absolute;
 }
